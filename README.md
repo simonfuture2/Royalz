@@ -1,24 +1,8 @@
-# Welcome to HashLips 👄
-
-![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.pdf)
-
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
+# Welcome to FutureSOLz ROYALz 👄
 
 To find out more please visit:
 
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
-
-[ℹ️ Website](https://hashlips.online/HashLips)
-
-# HashLips Art Engine 🔥
-
-![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
+# ROYALz Art Engine 🔥
 
 Create generative art by using the canvas api and node js. Before you use the generation engine, make sure you have node.js(v10.18.0) installed.
 
@@ -27,7 +11,7 @@ Create generative art by using the canvas api and node js. Before you use the ge
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/HashLips/hashlips_art_engine.git
+git clone https://github.com/simonfuture2/Royalz.git
 ```
 
 Go to the root of your folder and run this command if you have yarn installed.
@@ -55,11 +39,11 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Head" },
-      { name: "Mouth" },
+      { name: "Background" },
+      { name: "Hair" },
       { name: "Eyes" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
+      { name: "Hat" },
+      { name: "Skin" },
     ],
   },
 ];
@@ -78,11 +62,10 @@ const layerConfigurations = [
     growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
-      { name: "Head" },
-      { name: "Mouth" },
+      { name: "Hair" },
       { name: "Eyes" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
+      { name: "Hat" },
+      { name: "Skin" },
     ],
   },
   {
@@ -90,12 +73,10 @@ const layerConfigurations = [
     growEditionSizeTo: 150,
     layersOrder: [
       { name: "Background" },
-      { name: "Head" },
+      { name: "Hair" },
       { name: "Eyes" },
-      { name: "Mouth" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
-      { name: "AlienHeadwear" },
+      { name: "Hat" },
+      { name: "Skin" },
     ],
   },
 ];
